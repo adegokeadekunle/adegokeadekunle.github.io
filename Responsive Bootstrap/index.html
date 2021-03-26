@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CodeVilla - Responsive Bootstrap Theme</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+	<link rel="stylesheet" href="use.fontawesome.com/releases/v5.0.7/css/all.css">	
+	
+	
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+	<!--BOOTSTRAP SCROLL SPY :- allows you to indicate section 
+	of the page you are as you scroll. you set the target as 
+	the name of the id to target with Responsive 
+	(Responsive with a capital R)e.g navbarResponsive-->
+
+	<!--start home section-->
+	<div id="home">
+		<!--end home section -->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#"> <img src="img/CodeVilla.png" alt="logo"></a>
+			<!--for logo input-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!--to add a toggler button-->
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<!-- to move the navbar left right and centre (md-auto, mx-auto )   -->
+					<li class="nav-item ">
+						<a class="nav-link" href="#home">HOME</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#course">COURSE</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#features">FEATURES</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#resources">RESOURCES</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#clients">CLIENTS</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#contact">CONTACT</a>
+					</li>
+
+				</ul>
+			</div>
+
+		</nav>
+		<!--Navigation-->
+
+	</div>
+
+	<!--End Navigation-->
+	<!--Start Landing page Section -->
+	<div class="landing">
+		<div class="home-wrap">
+			<div class="home-inner">
+
+			</div>
+		</div>
+	</div>
+	<div class="caption text-center">
+		<h1>Welcome to CodeVilla</h1>
+		<h3>Udemy Bootstrap 4 Course</h3>
+		<a class="btn btn-outline-light btn-lg" href="#course">Get Started</a>
+	</div>
+	<!--End Landing Page Section-->
+	<!--start Course section-->
+	<div id="course" class="offset">
+		<div class="col-12 narrow text-center">
+			<h1>CodeVilla Theme Advance Course</h1>
+			<p class="lead">learn Bootstrap by joining our Advance Bootstrap 4
+				Responsive website class with no step skipped!.
+			</p>
+			<a class="btn btn-secondary btn-md" href="#" target="_blank">Bootstrap Course</a>
+
+		</div>
+	</div>
+	<!--end Course section -->
+
+	<!--start Features section-->
+	<div id="features" class="offset">
+		<!--start of jumbotron-->
+		<div class="jumbotron">
+			<div class="narrow text-center">
+				<div class="col-12">
+					<h3 class="heading">Features</h3>
+					<div class="heading-underline"></div>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-4">
+						<!--col is gotten by dividing the column to be used with the total column which is 12-->
+						<div class="feature">
+							<i class="fas fa-play-circle fa-3x" data-fa-transform="shrink-3 up-5"></i>
+							<!--the fa-4x increases the original size of the icon by 4 / data-fa-transform="" is used to shrink or grow the icon as well as move up or down -->
+							<h3>Custom Animation</h3>
+							<p>Animate css and waypoints js allow for smooth animations scrolling down the site</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<!--col is gotten by dividing the column to be used with the total column which is 12-->
+						<div class="feature">
+							<i class="fas fa-sliders-h fa-3x" data-fa-transform="shrink-3 up-5"></i>
+							<!--the fa-4x increases the original size of the icon by 4 / data-fa-transform="" is used to shrink or grow the icon as well as move up or down -->
+							<h3>Content Slider</h3>
+							<p> owl.carousel.js makes navigating content slider seamless with it's
+								content carousel Navigation</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<!--col is gotten by dividing the column to be used with the total column which is 12-->
+						<div class="feature">
+							<i class="fab fa-wpforms fa-3x" data-fa-transform="shrink-3 up-5"></i>
+							<!--the fa-4x increases the original size of the icon by 4 / data-fa-transform="" is used to shrink or grow the icon as well as move up or down -->
+							<h3>Contact Form</h3>
+							<p>The bootstrap HTML form will send directly to your email address using PHPMailer.php</p>
+						</div>
+					</div>
+				</div>
+				<!--row ends here-->
+
+			</div>
+			<!--end narrow -->
+
+		</div>
+		<!--end jumbotron-->
+
+	</div>
+	<!--end Features section -->
+
+	<!--start Resources section-->
+	<div id="resources" class="offset">
+		<div class="fixed-background">
+			<div class="row dark text-center">
+				<div class="col-12">
+					<h3 class="heading">Built with care</h3>
+					<div class="heading-underline"></div>
+				</div>
+				<div class="col-md-4">
+					<!--col is gotten by dividing the column to be used with the total column which is 12-->
+					<h3>HTML 5</h3>
+					<div class="feature">
+						<i class="fas fa-code fa-3x" data-fa-transform="shrink-3 up-5"></i>
+						<!--the fa-4x increases the original size of the icon by 4 / data-fa-transform="" is used to shrink or grow the icon as well as move up or down -->
+					</div>
+					<p class="lead">Built with the latest HTML 5</p>
+				</div>
+				<div class="col-md-4">
+					<!--col is gotten by dividing the column to be used with the total column which is 12-->
+					<h3>BOOTSTRAP 4 </h3>
+					<div class="feature">
+						<i class="fas fa-bold fa-3x" data-fa-transform="shrink-3 up-5"></i>
+						<!--the fa-4x increases the original size of the icon by 4 / data-fa-transform="" is used to shrink or grow the icon as well as move up or down -->
+					</div>
+					<p class="lead">Built with the latest BOOTSTRAP 4</p>
+				</div>
+				<div class="col-md-4">
+					<!--col is gotten by dividing the column to be used with the total column which is 12-->
+					<h3>CSS 3</h3>
+					<div class="feature">
+						<i class="fab fa-css3 fa-3x" data-fa-transform="shrink-3 up-5"></i>
+						<!--the fa-4x increases the original size of the icon by 4 / data-fa-transform="" is used to shrink or grow the icon as well as move up or down -->
+					</div>
+					<p class="lead">Built with the latest CSS 3</p>
+				</div>
+
+
+			</div>
+			<!--end of row dark-->
+			<div class="fixed-wrap">
+				<div class="fixed">
+
+				</div>
+			</div>
+		</div>
+		<!--end of fixed background-->
+	</div>
+	<!--end Resources section -->
+
+	<!--start Clients section-->
+	<div id="clients" class="offset">
+		<!--start jumbotron-->
+		<div class="jumbotron">
+			<div class="col-12 text-center">
+				<h3 class="heading">CLIENTS</h3>
+				<div class="heading-underline"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 clients">
+					<div class="row">
+						<!--this area is used to work on the images and text(divided into cols-6 ) -->
+						<div class="col-md-4">
+							<img src="img/client1.jpg" alt="image1">
+
+						</div>
+						<div class="col-md-8">
+							<blockquote>
+								<i class="fa fa-quote-left">
+									<!--for the quote icon-->
+									i see CodeVilla support as more of a partner to my company than a resource.
+									i can pick up the phone and talk to anyone at anytime and the way that
+									they interact with us as a business makes it really simple.
+								</i>
+								<hr class="client-hr">
+								<cite>&#8212; Isaac, Content Creator/Creative Director </cite>
+								<!-- &#8212; is used for the hifin symbol-->
+							</blockquote>
+
+						</div>
+
+
+					</div>
+				</div>
+				<div class="col-md-6 clients">
+					<div class="row">
+						<!--this area is used to work on the images and text(divided into cols-6 ) -->
+						<div class="col-md-4">
+							<img src="img/client2.jpg" alt="image2">
+
+						</div>
+						<div class="col-md-8">
+							<blockquote>
+								<i class="fa fa-quote-left">
+									<!--for the quote icon-->
+									the great thing about CodeVilla is it's not just a design, it's a responsive
+									Bootstrap theme with animation. CodeVilla layout is seamless the smooth parallaX
+									scrolling and a pop-up portfolio section for my images
+								</i>
+								<hr class="client-hr">
+								<cite>&#8212; Teemee , Professional Photographer </cite>
+								<!-- &#8212; is used for the hifin symbol-->
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--end jumbotron-->
+			<div class="col-12 narrow text-center">
+				<p class="lead">want to learn more about developing Bootstrap Themes ?</p>
+
+				<a class="btn btn-secondary btn-md" href="#" target="_blank">Bootstrap Course</a>
+
+			</div>
+		</div>
+		<!--end Clients section -->
+
+		<!--start Contact section-->
+		<div id="contact" class="offset">
+			<footer>
+				<div class="row  justify-content-center ">
+					<div class="col-md-5 text center">
+						<img src="img/CodeVilla.png" alt="logo">
+						<p>
+							At our core is a collection of designs and development solutions that represents
+							everything your business business needs to compete in the moderm market place.
+						</p>
+						<strong>Contact Info</strong>
+						<p>+234 803 062 374 0 <br> adegokeadekunle2@gmail.com</p>
+						<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+						<a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+						<a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="" target="_blank"><i class="fab fa-youtube-square"></i></a>
+					</div>
+					<div class="socket">
+						&copy; CodeVilla Theme.
+					</div>
+
+				</div>
+			</footer>
+
+		</div>
+		<!--end Contact section -->
+
+
+		<!--- Script Source Files -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+		<!--- End of Script Source Files -->
+
+</body>
+
+</html>
